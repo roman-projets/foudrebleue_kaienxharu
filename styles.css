@@ -958,3 +958,27 @@ footer {
     transform: none;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    background-image: url("kaien-haru_tel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    transform: none;
+    animation: settle 1.8s cubic-bezier(.2, .8, .2, 1) both;
+  }
+
+  .finale {
+    background-image: url("kaien-haru_tel.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 100vh;
+    transform: none;
+    animation: settle 1.8s cubic-bezier(.2, .8, .2, 1) both;
+  }
+}
