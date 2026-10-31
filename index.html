@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Entre l'ombre et l'aube, une histoire Boys Love originale entre Kaien et Haru." />
+  <title>Entre l'ombre et l'aube — Kaien × Haru</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Manrope:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="favicon_kaienxharu.png" type="image/x-icon">
+</head>
+
+
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Retour à l'accueil">
+      <span class="brand-mark">K</span>
+      <span>Entre l'ombre<br />et l'aube</span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <a href="#histoire">Histoire</a>
+      <a href="#personnages">Personnages</a>
+      <a href="#instants">Instants</a>
+      <a href="#scenes">Scènes</a>
+    </nav>
+    <button class="sound-toggle" type="button" aria-pressed="false" aria-label="Activer l'ambiance sonore visuelle">
+      <span></span><span></span><span></span>
+      <b>Ambiance</b>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero" id="accueil">
+      <div class="hero-image" role="img" aria-label="Portraits de Kaien et Haru dans une atmosphère nocturne"></div>
+      <div class="hero-vignette" aria-hidden="true"></div>
+      <p class="hero-kicker reveal">Une histoire originale de silences et de promesses</p>
+      <div class="hero-title reveal">
+        <span>Kaien</span>
+        <i>×</i>
+        <span>Haru</span>
+      </div>
+      <div class="hero-bottom reveal">
+        <p>Il avançait comme si rien ne pouvait l'atteindre.<br />Haru fut le premier à voir la fêlure.</p>
+        <a class="round-link" href="#histoire" aria-label="Découvrir leur histoire">
+          <svg viewBox="0 0 48 48" aria-hidden="true">
+            <path d="M24 10v26M15 27l9 9 9-9" />
+          </svg>
+        </a>
+      </div>
+    </section>
+
+    <section class="story section-pad" id="histoire">
+      <div class="section-label"><span>01</span> Leur histoire</div>
+      <div class="story-grid">
+        <div class="story-heading reveal">
+          <p class="eyebrow">Tokyo, après minuit</p>
+          <h1>Deux solitudes.<br /><em>Une même lumière.</em></h1>
+        </div>
+        <div class="story-copy reveal">
+          <p class="lead">Kaien connaît toutes les règles de la ville. Haru, lui, connaît le langage des silences.</p>
+          <p>Une nuit de pluie, leurs chemins se croisent sous l'auvent d'une librairie fermée. Kaien offre son
+            parapluie sans un mot. Haru revient le lendemain pour le lui rendre — et découvre que certaines rencontres
+            refusent de devenir des souvenirs.</p>
+          <div class="quote-switcher" aria-live="polite">
+            <div class="quote-tabs" role="tablist" aria-label="Choisir un point de vue">
+              <button class="active" data-pov="kaien" role="tab" aria-selected="true">Kaien</button>
+              <button data-pov="haru" role="tab" aria-selected="false">Haru</button>
+            </div>
+            <blockquote id="pov-quote">« Je pensais le protéger du monde. Je n'avais pas compris qu'il me protégeait de
+              moi-même. »</blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="characters" id="personnages">
+      <article class="character-card kaien-card reveal">
+        <div class="character-number">01</div>
+        <div class="character-content">
+          <p class="eyebrow">Le feu contenu</p>
+          <h2>Kaien</h2>
+          <p>22 ans — fier, magnétique, protecteur. Il ne sait pas demander qu'on reste, alors il donne mille raisons de
+            ne pas partir.</p>
+          <ul>
+            <li>Loyauté</li>
+            <li>Contrôle</li>
+            <li>Orage</li>
+          </ul>
+        </div>
+      </article>
+      <div class="bond-panel reveal">
+        <p>Distance entre eux</p>
+        <div class="bond-line"><span></span><i></i></div>
+        <strong id="bond-value">12 pas</strong>
+        <button id="closer-button" type="button">Les rapprocher</button>
+      </div>
+      <article class="character-card haru-card reveal">
+        <div class="character-number">02</div>
+        <div class="character-content">
+          <p class="eyebrow">La douceur tenace</p>
+          <h2>Haru</h2>
+          <p>19 ans — sensible, observateur, réservé. Sa douceur n'est pas une faiblesse : c'est sa manière de ne jamais
+            céder à la peur.</p>
+          <ul>
+            <li>Écoute</li>
+            <li>Courage</li>
+            <li>Aube</li>
+          </ul>
+        </div>
+      </article>
+    </section>
+
+    <section class="moments section-pad" id="instants">
+      <div class="section-label"><span>02</span> Instants suspendus</div>
+      <div class="moments-intro reveal">
+        <h2>Ce qu'ils ne disent pas<br />vit entre les lignes.</h2>
+        <p>Sélectionnez un chapitre pour entrer dans leur histoire.</p>
+      </div>
+      <div class="chapter-list">
+        <button class="chapter reveal" data-chapter="pluie">
+          <span class="chapter-index">I</span>
+          <span class="chapter-name">Le parapluie oublié</span>
+          <span class="chapter-meta">Pluie · 00:47</span>
+          <span class="chapter-arrow">↗</span>
+        </button>
+        <button class="chapter reveal" data-chapter="toit">
+          <span class="chapter-index">II</span>
+          <span class="chapter-name">Au bord du ciel</span>
+          <span class="chapter-meta">Vent · 19:12</span>
+          <span class="chapter-arrow">↗</span>
+        </button>
+        <button class="chapter reveal" data-chapter="aube">
+          <span class="chapter-index">III</span>
+          <span class="chapter-name">Avant que le jour se lève</span>
+          <span class="chapter-meta">Silence · 05:03</span>
+          <span class="chapter-arrow">↗</span>
+        </button>
+        <button class="chapter reveal" data-chapter="derniere-rame">
+          <span class="chapter-index">IV</span>
+          <span class="chapter-name">La dernière rame</span>
+          <span class="chapter-meta">Tokyo · 23:58</span>
+          <span class="chapter-arrow">↗</span>
+        </button>
+        <button class="chapter reveal" data-chapter="etoiles">
+          <span class="chapter-index">V</span>
+          <span class="chapter-name">La promesse sous les étoiles</span>
+          <span class="chapter-meta">Nuit · 21:36</span>
+          <span class="chapter-arrow">↗</span>
+        </button>
+        <button class="chapter reveal" data-chapter="matin">
+          <span class="chapter-index">VI</span>
+          <span class="chapter-name">Le matin où tu es resté</span>
+          <span class="chapter-meta">Aube · 06:14</span>
+          <span class="chapter-arrow">↗</span>
+        </button>
+      </div>
+    </section>
+
+
+    <section class="video-scenes section-pad" id="scenes">
+      <div class="section-label"><span>03</span> Scènes animées</div>
+      <div class="moments-intro reveal">
+        <h2>Leur histoire<br />prend vie.</h2>
+        <p>Retrouve les moments animés de Kaien et Haru. Lance une vidéo pour la regarder avec le son.</p>
+      </div>
+      <div class="video-grid">
+        <article class="video-card reveal">
+          <div class="video-frame">
+            <video controls playsinline preload="metadata" poster="kaien-haru-scene-1.jpg"
+              aria-label="Vidéo 1 : un premier baiser">
+              <source src="Kaien%20X%20Haru%201.mp4" type="video/mp4" />
+              Votre navigateur ne prend pas en charge la lecture vidéo.
+            </video>
+            <span class="video-number">SCÈNE 01</span>
+          </div>
+          <div class="video-caption">
+            <h3>Un premier baiser</h3>
+            <p>Un instant suspendu, entre hésitation et tendresse.</p><span>00:04</span>
+          </div>
+        </article>
+        <article class="video-card reveal">
+          <div class="video-frame">
+            <video controls playsinline preload="metadata" poster="kaien-haru-scene-2.jpg"
+              aria-label="Vidéo 2 : face à face au crépuscule">
+              <source src="Kaien%20X%20Haru%202.mp4" type="video/mp4" />
+              Votre navigateur ne prend pas en charge la lecture vidéo.
+            </video>
+            <span class="video-number">SCÈNE 02</span>
+          </div>
+          <div class="video-caption">
+            <h3>Face à face</h3>
+            <p>Les regards se croisent et la tension monte.</p><span>00:05</span>
+          </div>
+        </article>
+        <article class="video-card reveal">
+          <div class="video-frame">
+            <video controls playsinline preload="metadata" poster="kaien-haru-scene-3.jpg"
+              aria-label="Vidéo 3 : retrouvailles devant le lycée">
+              <source src="Kaien%20X%20Haru%203.mp4" type="video/mp4" />
+              Votre navigateur ne prend pas en charge la lecture vidéo.
+            </video>
+            <span class="video-number">SCÈNE 03</span>
+          </div>
+          <div class="video-caption">
+            <h3>À la sortie du lycée</h3>
+            <p>Haru retrouve Kaien dans la lumière du soir.</p><span>00:05</span>
+          </div>
+        </article>
+        <article class="video-card reveal">
+          <div class="video-frame">
+            <video controls playsinline preload="metadata" poster="kaien-haru-scene-4.jpg"
+              aria-label="Vidéo 4 : un baiser au coucher du soleil">
+              <source src="Kaien%20X%20Haru%204.mp4" type="video/mp4" />
+              Votre navigateur ne prend pas en charge la lecture vidéo.
+            </video>
+            <span class="video-number">SCÈNE 04</span>
+          </div>
+          <div class="video-caption">
+            <h3>Un baiser au crépuscule</h3>
+            <p>Un moment de douceur au bord de l'eau.</p><span>00:10</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="finale">
+      <div class="finale-content reveal">
+        <p class="eyebrow">À suivre</p>
+        <h2>« Reste jusqu'à l'aube. »</h2>
+        <p>Pour la première fois, Kaien ne donne pas un ordre.<br />Et Haru sourit comme s'il attendait ces mots depuis
+          toujours.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Une histoire originale — Kaien × Haru</p>
+    <p>Entre l'ombre et l'aube</p>
+  </footer>
+
+  <dialog class="chapter-dialog" id="chapter-dialog">
+    <button class="dialog-close" type="button" aria-label="Fermer">×</button>
+    <p class="eyebrow" id="dialog-eyebrow"></p>
+    <h2 id="dialog-title"></h2>
+    <div id="dialog-text"></div>
+    <p class="dialog-signature" id="dialog-signature"></p>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
